@@ -1,0 +1,17 @@
+table, th, td{
+    border: 1px solid black;
+}
+
+.Gender-fs{
+    width: 190px;
+}
+
+
+img{
+    width:300px;
+    padding-top:10px;
+}
+
+body{
+    padding-left : 10px;
+}
