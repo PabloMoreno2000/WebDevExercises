@@ -1,0 +1,27 @@
+inline block
+block
+inline
+
+display: flex; //todos los elementos del contenedor se ponen en la misma fila(puede cambiarse), una al lado de la otra
+
+//Puedes justificar un contenedor flex
+
+//Align-items = comoel justify-content del cross-axis
+
+       <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+	//En el ejemplo de arrib primero es columna, pero luego si el dispositivo es tamaño md, se vuelve a hacer row
+	//eso de md, y también xs, son como reglas de tamaño
+	//Luego align items center los alinea pero como para que queden a la misma altura que el de sign up
+	//El "p" es de padding o algo de medidas bases (sí es padding)
+	//px-md-4 solo para computadoras hasta arriba, un padding arriba y a la derecha x(es left y right)
+	//El border bottom agrega una línea abajo del menú
+
+	//Los links tienen propiedades como focus, active, hover(hover está en cualquier cosa)
+	//investigar más a fondo la clase container
+	//checar el before y after (ocupan content creo)
+	//IDs > clases> elementos
+	//Hay puntos de jerarquía en CSS (
+	//ID aporta 100 puntos, la clase 10, el elemento 1
+	//Transform
+
+1:12:08
