@@ -117,6 +117,10 @@ h6 {
   width: 900px;
 }
 
+.container--big {
+  width: 1030px;
+}
+
 .button-like {
   background-color: var(--button-bg, var(--accent-color));
   color: var(--button-color, var(--white));
@@ -185,3 +189,36 @@ h6 {
   color: var(--white);
   text-decoration: none;
 }
+
+.img--position-relative {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    padding-left: 10px;
+}
+
+.img--position-absolute2 {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 40px;
+    left: 330px; 
+}
+
+.img--position-absolute1 {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 0px;
+    left: 660px;
+}
+
+.img--position-absolute3 {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 40px;
+    left: 990px;
+}
+
+
