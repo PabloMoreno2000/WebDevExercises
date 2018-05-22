@@ -81,6 +81,11 @@ h6 {
   background: var(--black-a);
 }
 
+.h3--color-red {
+    color: var(--accent-color);
+    font-size: var(--regular-font-size);
+}
+
 .h4 {
   font-size: var(--regular-font-size);
   color: var(--accent-color);
@@ -94,8 +99,16 @@ h6 {
   line-height: 1.8;
 }
 
+.p--size-small {
+    font-size: 13px;
+    font-family: var(--title-font);
+}
+
 /* General */
 
+.container--smaller {
+  width: 500px;
+}
 .container--small {
   width: 600px;
 }
@@ -116,6 +129,14 @@ h6 {
   --button-bg: transparent;
   --button-color: var(--black);
   border: 1px solid var(--black-a);
+}
+
+.button-like--white--circled {
+  --button-bg: transparent;
+  --button-color: var(--black);
+  border-radius: 75px;
+  border: 1px solid var(--black-a);
+  text-transform: uppercase;
 }
 
 .circle {
