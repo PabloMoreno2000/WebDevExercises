@@ -13,6 +13,7 @@
   --black: #494c4f;
   --black-a: #494c4faa;
   --black-trans: #494c4f11;
+  --img-size: 350px;
   /* Mixins */
   --button: {
     background-color: var(--button-bg, var(--accent-color));
@@ -121,6 +122,10 @@ h6 {
   width: 1030px;
 }
 
+.container--picture {
+    width:350px;
+}
+
 .button-like {
   background-color: var(--button-bg, var(--accent-color));
   color: var(--button-color, var(--white));
@@ -191,31 +196,31 @@ h6 {
 }
 
 .img--position-relative {
-    width: 350px;
-    height: 350px;
+    width: var(--img-size);
+    height: var(--img-size);
     position: relative;
     padding-left: 10px;
 }
 
 .img--position-absolute2 {
-    width: 350px;
-    height: 350px;
+    width: var(--img-size);
+    height: var(--img-size);
     position: absolute;
     top: 40px;
     left: 330px; 
 }
 
 .img--position-absolute1 {
-    width: 350px;
-    height: 350px;
+    width: var(--img-size);
+    height: var(--img-size);
     position: absolute;
     top: 0px;
     left: 660px;
 }
 
 .img--position-absolute3 {
-    width: 350px;
-    height: 350px;
+    width: var(--img-size);
+    height: var(--img-size);
     position: absolute;
     top: 40px;
     left: 990px;
