@@ -31,7 +31,9 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+ol,
+ul {
   font-family: var(--title-font);
 }
 
@@ -224,6 +226,20 @@ h6 {
     position: absolute;
     top: 40px;
     left: 990px;
+}
+
+.color--white {
+    color: var(--white);
+}
+
+/*IDs*/
+#carousel-space {
+    background-color: var(--accent-color);
+    -webkit-transform: rotate(-1deg);
+}
+
+#inner-div {
+    margin: 0 auto;
 }
 
 
