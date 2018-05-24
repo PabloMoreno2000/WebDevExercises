@@ -9,6 +9,7 @@
   --big-font-size: 60px;
   --gigant-font-size: 80px;
   --accent-color: #ff4c3d;
+  --red-dark: ##610B0B;
   --white: #fff;
   --black: #494c4f;
   --black-a: #494c4faa;
@@ -35,6 +36,12 @@ h6,
 ol,
 ul {
   font-family: var(--title-font);
+}
+
+input {
+    border: 0;
+    border-radius: 5px;
+    height: 50px;
 }
 
 /* Typography */
@@ -151,6 +158,14 @@ ul {
   padding: 15px 30px;
 }
 
+.button-like-dark {
+  background-color: var(--button-bg, var(--red-dark));
+  color: var(--button-color, var(--white));
+  border-radius: 75px;
+  text-transform: uppercase;
+  padding: 15px 30px;
+}
+
 .button-like--white {
   --button-bg: transparent;
   --button-color: var(--black);
@@ -254,14 +269,8 @@ ul {
     color: var(--white);
 }
 
-/*IDs*/
-#carousel-space {
+
+.red-space {
     background-color: var(--accent-color);
     -webkit-transform: rotate(-1deg);
 }
-
-#inner-div {
-    margin: 0 auto;
-}
-
-
