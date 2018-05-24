@@ -84,6 +84,21 @@ ul {
   background: var(--black-a);
 }
 
+.h3--underline--red {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.h3--underline--red::after {
+  content: '';
+  width: 120%;
+  height: 3px;
+  position: absolute;
+  left: -10%;
+  top: calc(100% + 10px);
+  background: var(--accent-color);
+}
+
 .h3--color-red {
     color: var(--accent-color);
     font-size: var(--regular-font-size);
@@ -161,6 +176,13 @@ ul {
   height: 150px;
   background-color: var(--line-bg, var(--accent-color));
   margin: var(--line-height, 40px) auto;
+}
+
+.line--horizontal {
+    width: 20px;
+    height: 3px;
+    background-color: var(--line-bg, var(--black-a));
+    margin: var(--line-height, 40px) auto;
 }
 
 /* Navbar styles */
