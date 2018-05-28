@@ -274,3 +274,7 @@ input {
     background-color: var(--accent-color);
     -webkit-transform: rotate(-1deg);
 }
+
+#carousel {
+
+}
